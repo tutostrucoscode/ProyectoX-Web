@@ -1,0 +1,70 @@
+@font-face {
+  font-family: akrobat;
+  src: url(../components/assets/fonts/akrobat/Akrobat-Regular.otf);
+  src: local("Akrobat Regular"), local("Akrobat-Regular"),
+    url(Akrobat-Regular.eot?#iefix) format("embedded-opentype"),
+    url(Akrobat-Regular.woff) format("woff"),
+    url(Akrobat-Regular.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: akrobat;
+  src: url(../components/assets/fonts/akrobat/Akrobat-ExtraLight.otf);
+  src: local("Akrobat ExtraLight"), local("Akrobat-ExtraLight"),
+    url(Akrobat-ExtraLight.eot?#iefix) format("embedded-opentype"),
+    url(Akrobat-ExtraLight.woff) format("woff"),
+    url(Akrobat-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: akrobat;
+  src: url(../components/assets/fonts/akrobat/Akrobat-SemiBold.otf);
+  src: local("Akrobat SemiBold"), local("Akrobat-SemiBold"),
+    url(Akrobat-SemiBold.eot?#iefix) format("embedded-opentype"),
+    url(Akrobat-SemiBold.woff) format("woff"),
+    url(Akrobat-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: akrobat;
+  src: url(../components/assets/fonts/akrobat/Akrobat-Light.otf);
+  src: local("Akrobat Light"), local("Akrobat-Light"),
+    url(Akrobat-Light.eot?#iefix) format("embedded-opentype"),
+    url(Akrobat-Light.woff) format("woff"),
+    url(Akrobat-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: akrobat;
+  src: url(../components/assets/fonts/akrobat/Akrobat-Black.otf);
+  src: local("Akrobat Black"), local("Akrobat-Black"),
+    url(Akrobat-Black.eot?#iefix) format("embedded-opentype"),
+    url(Akrobat-Black.woff) format("woff"),
+    url(Akrobat-Black.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: akrobat;
+  src: url(../components/assets/fonts/akrobat/Akrobat-Bold.otf);
+  src: local("Akrobat Bold"), local("Akrobat-Bold"),
+    url(Akrobat-Bold.eot?#iefix) format("embedded-opentype"),
+    url(Akrobat-Bold.woff) format("woff"),
+    url(Akrobat-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: akrobat;
+  src: url(../components/assets/fonts/akrobat/Akrobat-ExtraBold.otf);
+  src: local("Akrobat ExtraBold"), local("Akrobat-ExtraBold"),
+    url(Akrobat-ExtraBold.eot?#iefix) format("embedded-opentype"),
+    url(Akrobat-ExtraBold.woff) format("woff"),
+    url(Akrobat-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
