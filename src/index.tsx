@@ -1,15 +1,19 @@
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import React from "react";
 import ReactDOM from "react-dom";
+import { HelmetProvider } from "react-helmet-async";
+import { Provider } from "react-redux";
 import App from "./App";
+import { store } from "./redux/store/store";
 import reportWebVitals from "./reportWebVitals";
-import { theme } from "./styles/theme";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
+    <HelmetProvider>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </HelmetProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
