@@ -21,7 +21,6 @@ const Home = (props: Props) => {
   return (
     <>
       <Page>
-        <Container>
           <Grid container spacing={2}>
             {/*Secto 1*/}
             <AppCard typeCard={"img"} className="sector1">
@@ -574,7 +573,6 @@ const Home = (props: Props) => {
           </Grid>
           {/*Modales*/}
           <Video />
-        </Container>
       </Page>
     </>
   );

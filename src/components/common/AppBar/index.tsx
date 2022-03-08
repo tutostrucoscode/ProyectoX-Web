@@ -38,12 +38,16 @@ const BarApp = (props: Props) => {
   };
 
   const handleToUserMenu = (menu: any) => {
+    console.log(menu);
+
     switch (menu) {
       case "Registro":
       case "Login":
         navigate(`/${menu.toLowerCase()}`);
         return;
-
+      case "Inicio":
+        navigate(`/`);
+        return;
       default:
         break;
     }
@@ -132,7 +136,7 @@ const BarApp = (props: Props) => {
               {paths.map((page) => (
                 <Button
                   key={page.label}
-                  onClick={handleCloseNavMenu}
+                  onClick={() => handleToUserMenu(page.url)}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   {page.label}
