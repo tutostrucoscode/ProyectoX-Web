@@ -1,15 +1,27 @@
-import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { theme } from "./styles/theme";
+import { HelmetProvider } from "react-helmet-async";
+import { Provider } from "react-redux";
+import { store } from "./redux/store/store";
+import "nprogress/nprogress.css";
+import { BrowserRouter } from "react-router-dom";
+import ScrollTop from "./hooks/useScrollTop";
+import { SidebarProvider } from "./contexts/SidebarContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
+    <HelmetProvider>
+      <Provider store={store}>
+        <SidebarProvider>
+          <BrowserRouter>
+            <ScrollTop />
+            <App />
+          </BrowserRouter>
+        </SidebarProvider>
+      </Provider>
+    </HelmetProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

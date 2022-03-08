@@ -7,7 +7,6 @@ import { useAppDispatch } from "../../../redux/hooks/hooks";
 import { setModal } from "../../../redux/slice/modal";
 import Video from "../../common/Modal/Video";
 import Page from "../../common/Page";
-import Box from "@mui/material/Box/Box";
 import AppCard from "../../common/Card";
 import CardMedia from "@mui/material/CardMedia/CardMedia";
 import Card from "@mui/material/Card/Card";

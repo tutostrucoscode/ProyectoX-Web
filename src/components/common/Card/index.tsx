@@ -1,4 +1,4 @@
-import { Card, Grid, SxProps, Theme } from "@mui/material";
+import { Card, Grid, Theme } from "@mui/material";
 import { ReactChild } from "react";
 import "../../../styles/styles.css";
 
@@ -6,7 +6,7 @@ interface Props {
   children: ReactChild[] | ReactChild;
   typeCard: string;
   colorCard?: string;
-  sx?: SxProps<Theme> | undefined;
+  sx?: any;
   className?: string;
   height?: string;
 }

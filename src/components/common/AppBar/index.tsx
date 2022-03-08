@@ -39,6 +39,7 @@ const BarApp = (props: Props) => {
 
   const handleToUserMenu = (menu: any) => {
     switch (menu) {
+      case "Registro":
       case "Login":
         navigate(`/${menu.toLowerCase()}`);
         return;

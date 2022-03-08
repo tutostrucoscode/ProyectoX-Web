@@ -1,16 +1,17 @@
-import { Provider } from "react-redux";
+import LocalizationProvider from "@mui/lab/LocalizationProvider";
+import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import AppRouters from "./components/router/AppRouters";
-import { store } from "./redux/store/store";
+import ThemeProvider from "./theme/ThemeProvider";
+import { CssBaseline } from "@mui/material";
 
 function App() {
-
-
   return (
-    <>
-      <Provider store={store}>
+    <ThemeProvider>
+      <LocalizationProvider dateAdapter={AdapterDateFns}>
+        <CssBaseline />
         <AppRouters />
-      </Provider>
-    </>
+      </LocalizationProvider>
+    </ThemeProvider>
   );
 }
 

@@ -1,6 +1,6 @@
 import createTheme from "@mui/material/styles/createTheme";
 
-export const theme = createTheme({
+/*export const theme = createTheme({
   typography: {
     fontFamily: [
       "-apple-system",
@@ -17,3 +17,4 @@ export const theme = createTheme({
     ].join(","),
   },
 });
+*/
